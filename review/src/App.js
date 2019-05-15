@@ -3,7 +3,7 @@ import './reset.css';
 import './App.css';
 import users from './data';
 
-//Components
+// COMPONENTS
 import Navbar from './Components/Navbar/Navbar';
 import Card from './Components/Card/Card';
 import Controls from './Components/Controls/Controls';
@@ -49,10 +49,12 @@ class App extends Component {
     ))
 
     return (
-      <div className='app-container'>
+      <div className='App'>
         <Navbar/>
-        <Card filteredUser={filteredUser} />
-        <Controls next={this.next} prev={this.prev} />
+        <div className='cardAndControls'>
+          <Card filteredUser={filteredUser} />
+          <Controls next={this.next} prev={this.prev} />
+        </div>
       </div>
     )
   }

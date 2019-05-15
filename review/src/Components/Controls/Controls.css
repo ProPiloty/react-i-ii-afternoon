@@ -1,18 +1,6 @@
-.controls-container {
-    width: 85%;
-    height: 8%;
+.Controls {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-}
-
-.controls-container button {
-    width: 5%;
-    height: 65%;
-    background: transparent;
-    color: white;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    font-weight: bold;
+    width: 70vw;
 }

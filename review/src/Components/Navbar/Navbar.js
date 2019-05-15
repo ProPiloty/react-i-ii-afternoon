@@ -1,10 +1,12 @@
 import React from 'react';
 import './Navbar.css';
 
-export default function Navbar(){
-    return (
-        <div className='navbar-container'>
-            <h1>Home</h1>
+function Navbar(){
+    return(
+        <div className="Navbar">
+            <h1 className="Home">home</h1>
         </div>
     )
 }
+
+export default Navbar;
